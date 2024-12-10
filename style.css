@@ -612,7 +612,7 @@ footer .install .row img {
 }
 @media (max-width: 477px) {
   .section-p1 {
-    padding: 30px 10px;
+    padding: 25px 0;
   }
   #header {
     padding: 15px 15px;
