@@ -488,6 +488,58 @@ footer .install .row img {
   font-style: italic;
 }
 
+
+
+/* Shop  Page Start */
+#page-header{
+  background-image: url('img/banner/b1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  align-content: center;
+}
+#page-header h2,
+#page-header p{
+  color: #fff;
+}
+#inner-banner{
+  text-align: center;
+}
+#inner-banner a{
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 18px;
+  background-color: #00ad6e;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: .4s ease-in-out;
+  border-radius: 5px;
+}
+#inner-banner a:hover{
+  background-color: transparent;
+  border: 1px solid #00ad6e;
+  color: #0a0a0a;
+}
+#inner-banner a i{
+  font-size: 16px;
+}
+
+/* Shop Page End  */
+
+
+/* Blog Page Start  */
+/* Blog Page End  */
+
+
+/* About Page Start  */
+/* About Page End  */
+
+
+/* Contact Page Start  */
+/* Contact Page End  */
+
 /* Start Media Query */
 @media (max-width: 799px) {
   #header {
