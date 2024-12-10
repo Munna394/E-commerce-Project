@@ -599,7 +599,7 @@ footer .install .row img {
   #news-latter {
     justify-content: center;
   }
-  #news-latter .news-text{
+  #news-latter .news-text {
     text-align: center;
   }
   #news-latter .form {
@@ -608,5 +608,40 @@ footer .install .row img {
   #news-latter .form button {
     padding: 12px 18px;
     font-size: 15px;
+  }
+}
+@media (max-width: 477px) {
+  #header {
+    padding: 15px 15px;
+  }
+  #header a img {
+    width: 70%;
+  }
+  #header ul li a i {
+    font-size: 14px;
+  }
+  #header ul {
+    width: 230px;
+  }
+  #close {
+    left: 170px;
+  }
+  #hero {
+    background-position: 45%;
+    padding: 0 12px;
+  }
+  #hero h4 {
+    padding-bottom: 0px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+  p {
+    margin: 9px 48px 10px 10px;
   }
 }
