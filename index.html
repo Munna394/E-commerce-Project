@@ -406,7 +406,8 @@
             <p><strong>Address:</strong> Nischintopur, Kalibari - Thakurgaon</p>
             <a href="tel:+8801314283029"><strong>Phone:</strong>
             +8801314283039</a>
-            <p><strong>Hours:</strong> 10 : 00 : 00</p>
+            <p><strong>Times:</strong> <span id="clock">00:00:00</span></p>
+                
             <div class="follow">
                 <h4>Follow us</h4>
                 <div class="icon">
@@ -453,8 +454,38 @@
             <p>Munna © 2024 all rights reserved</p>
         </div>
     </section>
-    
 
+
+
+    <script>
+        const showTime = () => {
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let session = "AM";
+
+            if(hours >= 12){
+                session = "PM";
+            }
+
+            if(hours > 0){
+                hours = 12;
+            }
+            if(hours > 12){
+                hours = hours - 12;
+            }
+
+            hours = (hours < 10) ? "0" + hours : hours;
+            minutes = (minutes < 10) ? "0" + minutes : minutes;
+            seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+            let time = hours + ":" + minutes + ":" + seconds + " " + session;
+            document.getElementById('clock').innerHTML = time;
+        }
+        setInterval(showTime, 1000);
+    </script>
+    
     <script src="script.js"></script>
 </body>
 
