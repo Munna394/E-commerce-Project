@@ -990,11 +990,16 @@ footer .install .row img {
     width: 100%;
   }
   #about-head .about-text {
-    padding-left: 0px;
-    padding-top: 30px;
+    padding: 30px 10px 0 10px;
+  }
+  #about-head .about-text .about-para{
+    margin: 0;
   }
   #about-head .about-text button {
     padding: 10px 15px;
+  }
+  #about-app .video {
+    width: 92%;
   }
   /* About Page End  */
 }
